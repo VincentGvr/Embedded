@@ -42,8 +42,16 @@ $vmPubIp = az vm show `
   --query publicIps -o tsv
 
 ssh $userName@$vmPubIp
-
 ```
+
+Une fois connecté, installer rust : 
+```
+curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf | sh
+```
+Lorsque demandé, tapper 1. 
+
+<img width="661" height="95" alt="image" src="https://github.com/user-attachments/assets/88d35c55-a3f1-4c85-8634-f627d7fb84f2" />
+
 
 ## Appendix : Pour lister les distributions : 
 ```
