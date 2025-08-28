@@ -1,5 +1,9 @@
 # Dans une souscription Azure : 
 
+<!> Info : 
+  - Si dans un laptop : x64 (plus puissant mais plus consommateur) 
+  - Si dans un device : Arm (plus efficient, moins compatible, moins cher) 
+
 Démarrer Powershell à la main ou bien depuis un cmd : 
 ```
 powershell
@@ -12,4 +16,8 @@ $rgName = "rg-unix"
 $azLocation = "westeurope"
 az group create --name $rgName --location $azLocation
 ```
-
+```
+$architecture = "x64" #"Arm64"
+$sku = "13"
+az vm image list --all --location $azLocation --publisher "Debian" --sku "13" --output "table" --architecture $architecture --query "max_by([], &version).{sku:sku, version:version}"
+```
