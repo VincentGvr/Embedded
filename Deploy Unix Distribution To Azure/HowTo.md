@@ -23,7 +23,7 @@ $imageName = "Debian:debian-13:12:latest"
 $userName = "vgu"
 $vmSize = "Standard_B1s" #"Standard_B1s" 
 
-az vm create 
+az vm create `
   --resource-group $rgName `
   --name $vmName `
   --image $imageName `
