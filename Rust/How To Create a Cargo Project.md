@@ -36,3 +36,28 @@ To clone repo and build :
 $ git clone example.org/someproject
 $ cd someproject
 $ cargo build
+
+To use a library : 
+
+use std::io;
+
+To define variables : by default immutable 
+
+let apples = 5; // immutable
+let mut bananas = 5; // mutable
+
+To call functions : 
+io::stdin().read_line(&mut guess);
+
+Result of a call can be of two states : 
+  - Ok
+  - Err
+To catch Err :   .expect("");
+If forgotten : warning when compiling ;
+
+To add a dependency : edit the Cargo.toml : 
+vim Cargo.toml 
+"a" to edit with cursor
+Esc to escape edition 
+:w to save 
+:q to quit vim 
