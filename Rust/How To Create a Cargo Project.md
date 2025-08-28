@@ -11,6 +11,6 @@ When creating a cargo, it creates :
 
 To build a project : 
 
-` cargo build `{.shell}
+` cargo build `{:.shell}
 
 toto
