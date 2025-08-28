@@ -52,7 +52,7 @@ Lorsque demandé, tapper 1.
 
 <img width="661" height="95" alt="image" src="https://github.com/user-attachments/assets/88d35c55-a3f1-4c85-8634-f627d7fb84f2" />
 
-# Une fois installé, créer le repertoire prévu : 
+Une fois installé, créer le repertoire prévu : 
 
 ```
 mkdir projects
