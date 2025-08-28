@@ -56,6 +56,7 @@ To catch Err :   .expect("");
 If forgotten : warning when compiling ;
 
 To add a dependency : edit the Cargo.toml : 
+
 vim Cargo.toml 
 "a" to edit with cursor
 Esc to escape edition 
