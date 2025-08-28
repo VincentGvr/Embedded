@@ -59,6 +59,12 @@ mkdir projects
 cd projects
 ```
 
+# Appendix télécharger un repo/fichier depuis git vers la vm
+
+wget "https://github.com/VincentGvr/Embedded/tree/main/Rust/Projects/HelloWorld/main.rs"
+
+# Appendix pousser un fichier local via SSH 
+
 Pour déployer un fichier local en SSH vers la VM, ouvrir un nouvel onglet dans l'invit de commande 
 
 Se connecter à nouveau :
