@@ -19,5 +19,5 @@ az group create --name $rgName --location $azLocation
 ```
 $architecture = "x64" #"Arm64"
 $sku = "13"
-az vm image list --all --location $azLocation --publisher "Debian" --sku "13" --output "table" --architecture $architecture --query "max_by([], &version).{sku:sku, version:version}"
+az vm image list --all --location $azLocation --publisher "Debian" --sku "13" --output "table" --architecture $architecture --query "max_by([], &version).{version:version}"
 ```
