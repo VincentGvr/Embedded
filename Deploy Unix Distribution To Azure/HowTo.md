@@ -23,12 +23,12 @@ $imageName = "Debian:debian-13:12:latest"
 $userName = "vgu"
 $vmSize = "Standard_B1s" #"Standard_B1s" 
 
-az vm create \
-  --resource-group $rgName \
-  --name $vmName \
-  --image $imageName \
-  --size Standard_B1s \
-  --admin-username $userName \
+az vm create 
+  --resource-group $rgName `
+  --name $vmName `
+  --image $imageName `
+  --size $vmSize `
+  --admin-username $userName `
   --generate-ssh-keys
 ```
 
