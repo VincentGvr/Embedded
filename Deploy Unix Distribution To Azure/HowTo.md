@@ -59,6 +59,33 @@ mkdir projects
 cd projects
 ```
 
+Pour déployer un fichier local en SSH vers la VM, ouvrir un nouvel onglet dans l'invit de commande 
+
+Se connecter à nouveau :
+
+```
+az login
+
+$rgName = "rg-unix"
+$vmName = "vm-debian-learnCode"
+$userName = "vgu"
+
+$vmPubIp = az vm show `
+  --resource-group $rgName `
+  --name $vmName `
+  --show-details `
+  --query publicIps -o tsv
+```
+
+et pousser le fichier à l'aide de la commande : 
+
+```
+scp -r ~/my-project/ azureuser@<Public-IP>:/home/azureuser/
+```
+ou rsync qui ne déploie que les changes : 
+```
+rsync -avz ~/my-project/ azureuser@<Public-IP>:/home/azureuser/my-project/
+```
 ## Rust Appendix : to work offline : 
 
 $ cargo new get-dependencies
