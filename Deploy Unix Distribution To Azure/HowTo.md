@@ -21,7 +21,7 @@ az group create --name $rgName --location $azLocation
 $vmName = "vm-debian-learnCode"
 $imageName = "Debian:debian-13:12:latest"
 $userName = "vgu"
-$vmSize = "" #"Standard_B1s" 
+$vmSize = "Standard_B1s" #"Standard_B1s" 
 
 az vm create \
   --resource-group $rgName \
