@@ -16,8 +16,10 @@ $rgName = "rg-unix"
 $azLocation = "westeurope"
 az group create --name $rgName --location $azLocation
 ```
+
+## Appendix : Pour lister les distributions : 
 ```
 $architecture = "x64" #"Arm64"
 $sku = "13"
-az vm image list --all --location $azLocation --publisher "Debian" --sku "13" --output "table" --architecture $architecture --query "max_by([], &version).{version:version}"
+az vm image list --all --location $azLocation --publisher "Debian" --sku "13" --output "table" --query "max_by([], &version).{version:version} & [?architecture=='x64']"
 ```
