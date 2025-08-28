@@ -3,9 +3,13 @@
 Depuis un cmd : 
 
 ```
+powershell
+```
+
+```
 az login
-set rgName = "rg-unix"
-set azLocation = "westeurope"
-az group create --name rgName --location azLocation
+$rgName = "rg-unix"
+$azLocation = "westeurope"
+az group create --name $rgName --location $azLocation
 ```
 
