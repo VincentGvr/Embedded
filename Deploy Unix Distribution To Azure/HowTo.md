@@ -32,6 +32,19 @@ az vm create `
   --generate-ssh-keys
 ```
 
+Une fois la VM créée, récupérer son IP Publique et se connecter : 
+
+```
+$vmPubIp = az vm show `
+  --resource-group $rgName `
+  --name $vmName `
+  --show-details `
+  --query publicIps -o tsv
+
+ssh $userName@$vmPubIp
+
+```
+
 ## Appendix : Pour lister les distributions : 
 ```
 $architecture = "x64" #"Arm64"
