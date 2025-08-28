@@ -26,3 +26,13 @@ To compile and run :
 To check code : 
 
 `cargo check`
+
+To create a release : 
+
+`cargo build --release`
+
+To clone repo and build : 
+
+$ git clone example.org/someproject
+$ cd someproject
+$ cargo build
