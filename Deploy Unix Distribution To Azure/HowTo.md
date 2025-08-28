@@ -79,11 +79,11 @@ $vmPubIp = az vm show `
 
 une fois positionné dans le folder où le fichier a été créé, pousser le fichier à l'aide de la commande : 
 ```
-scp -r ~/ $userName@$($vmPubIp):/projects/helloworld
+scp -r ./ $userName@$($vmPubIp):~/projects/helloworld
 ```
 ou rsync qui ne déploie que les changes : 
 ```
-rsync -avz ~/my-project/ azureuser@<Public-IP>:/home/azureuser/my-project/
+rsync -avz ./ $userName@$($vmPubIp):~/projects/helloworld
 ```
 ## Rust Appendix : to work offline : 
 
