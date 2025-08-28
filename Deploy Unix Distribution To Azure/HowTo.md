@@ -19,7 +19,7 @@ $azLocation = "westeurope"
 az group create --name $rgName --location $azLocation
 
 $vmName = "vm-debian-learnCode"
-$imageName = "Debian:debian-13:12:latest"
+$imageName = "Debian:debian-13:13:latest"
 $userName = "vgu"
 $vmSize = "Standard_B1s" #"Standard_B1s" 
 
