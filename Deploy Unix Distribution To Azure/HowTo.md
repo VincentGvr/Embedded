@@ -61,7 +61,9 @@ cd projects
 
 # Appendix télécharger un repo/fichier depuis git vers la vm
 
+```
 wget "https://github.com/VincentGvr/Embedded/tree/main/Rust/Projects/HelloWorld/main.rs"
+```
 
 # Appendix pousser un fichier local via SSH 
 
