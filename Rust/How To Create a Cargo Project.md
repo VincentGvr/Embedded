@@ -13,4 +13,9 @@ To build a project :
 
 ` cargo build `
 
-toto
+It creates : 
+- a .lock file
+- a target folder containing a debug folder
+
+To execute :
+`./target/debug/hello_cargo`
