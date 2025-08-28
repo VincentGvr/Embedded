@@ -21,6 +21,12 @@ mkdir projects
 cd projects
 ```
 
+Pour compiler : 
+
+```
+rustc <nom_du_programme>
+```
+
 # Appendix télécharger un repo/fichier depuis git vers la vm
 
 ```
