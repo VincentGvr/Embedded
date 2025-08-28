@@ -22,3 +22,7 @@ To execute : `./target/debug/hello_cargo`
 To compile and run : 
 
 `cargo run`
+
+To check code : 
+
+`cargo check`
