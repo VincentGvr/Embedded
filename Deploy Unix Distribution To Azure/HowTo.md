@@ -52,6 +52,11 @@ Lorsque demandé, tapper 1.
 
 <img width="661" height="95" alt="image" src="https://github.com/user-attachments/assets/88d35c55-a3f1-4c85-8634-f627d7fb84f2" />
 
+## Rust Appendix : to work offline : 
+
+$ cargo new get-dependencies
+$ cd get-dependencies
+$ cargo add rand@0.8.5 trpl@0.2.0
 
 ## Appendix : Pour lister les distributions : 
 ```
