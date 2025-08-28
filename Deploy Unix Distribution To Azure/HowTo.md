@@ -12,9 +12,23 @@ powershell
 Depuis Powershell, se connecter à Azure CLI puis définir la région et le nom du groupe de ressource : 
 ```
 az login
+
 $rgName = "rg-unix"
 $azLocation = "westeurope"
+
 az group create --name $rgName --location $azLocation
+
+$vmName = "vm-debian-learnCode"
+$imageName = "Debian:debian-13:12:latest"
+$userName = "vgu"
+$vmSize = "Standard_B1s"
+az vm create \
+  --resource-group $rgName \
+  --name $vmName \
+  --image $imageName \
+  --size Standard_B1s \
+  --admin-username $userName \
+  --generate-ssh-keys
 ```
 
 ## Appendix : Pour lister les distributions : 
