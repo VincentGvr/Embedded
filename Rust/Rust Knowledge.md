@@ -1,0 +1,31 @@
+To use a library : 
+
+use std::io;
+
+To define variables : by default immutable 
+```
+let apples = 5; // immutable
+let mut bananas = 5; // mutable
+```
+We can defined constants across all scope of the app. Constants cannot be the result of a calculation, it has to be defined at definition. 
+
+```
+const THREE_HOURS_IN_SECONDS: u32 = 60 * 60 * 3;
+```
+
+To call functions : 
+`io::stdin().read_line(&mut guess);`
+
+Result of a call can be of two states : 
+  - Ok
+  - Err
+To catch Err :   .expect("");
+If forgotten : warning when compiling ;
+
+To add a dependency : edit the Cargo.toml : 
+
+vim Cargo.toml 
+"a" to edit with cursor
+Esc to escape edition 
+:w to save 
+:q to quit vim 
