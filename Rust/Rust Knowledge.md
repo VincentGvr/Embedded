@@ -13,6 +13,17 @@ We can defined constants across all scope of the app. Constants cannot be the re
 const THREE_HOURS_IN_SECONDS: u32 = 60 * 60 * 3;
 ```
 
+If a varaible is defined inside of { }, it can change as a value : 
+
+```
+let x = x + 1;
+{
+  let x = x * 2;
+  println!("The value of x in the inner scope is: {x}");
+}
+```
+
+ 
 To call functions : 
 `io::stdin().read_line(&mut guess);`
 
