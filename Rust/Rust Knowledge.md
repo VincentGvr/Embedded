@@ -26,7 +26,11 @@ let x = x + 1;
 To define many variables type : 
 
 `let tup: (i32, f64, u8) = (500, 6.4, 1);`
- 
+
+To define an array with type and number of items : 
+
+`let a: [i32; 5] = [1, 2, 3, 4, 5];`
+
 To call functions : 
 `io::stdin().read_line(&mut guess);`
 
