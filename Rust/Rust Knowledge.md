@@ -23,6 +23,9 @@ let x = x + 1;
 }
 ```
 
+To define many variables type : 
+
+`let tup: (i32, f64, u8) = (500, 6.4, 1);`
  
 To call functions : 
 `io::stdin().read_line(&mut guess);`
