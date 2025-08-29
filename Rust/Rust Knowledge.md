@@ -31,6 +31,14 @@ To define an array with type and number of items :
 
 `let a: [i32; 5] = [1, 2, 3, 4, 5];`
 
+Control flow : 
+
+Loops : 
+`for number in (1..4).rev() {} ` permet de retourner la boucle for 
+`while index < 5 {}`
+`'counting_up: loop {`
+`  break 'counting_up; `# pour les boucles infinies à terminer, peuvent être prefixées pour terminer la bonne loop
+  
 To call functions : 
 `io::stdin().read_line(&mut guess);`
 
