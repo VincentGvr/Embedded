@@ -38,7 +38,6 @@ az iot hub device-identity connection-string show `
   --device-id $deviceName `
   --hub-name $iotHubName `
   --output table
-
 ```
 
 <img width="1305" height="635" alt="image" src="https://github.com/user-attachments/assets/8bdeb179-d518-4dcd-9dd1-3875611a63c6" />
