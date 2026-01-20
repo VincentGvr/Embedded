@@ -1,0 +1,15 @@
+/home/vgu/IoTSimulator/target/debug/deps/azure_iot_sdk-8fa760cea58a8eb7.d: /home/vgu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/azure_iot_sdk-0.8.0/src/lib.rs /home/vgu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/azure_iot_sdk-0.8.0/src/client.rs /home/vgu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/azure_iot_sdk-0.8.0/src/message.rs /home/vgu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/azure_iot_sdk-0.8.0/src/mqtt_transport.rs /home/vgu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/azure_iot_sdk-0.8.0/src/token.rs /home/vgu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/azure_iot_sdk-0.8.0/src/transport.rs /home/vgu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/azure_iot_sdk-0.8.0/src/provision.rs
+
+/home/vgu/IoTSimulator/target/debug/deps/libazure_iot_sdk-8fa760cea58a8eb7.rlib: /home/vgu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/azure_iot_sdk-0.8.0/src/lib.rs /home/vgu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/azure_iot_sdk-0.8.0/src/client.rs /home/vgu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/azure_iot_sdk-0.8.0/src/message.rs /home/vgu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/azure_iot_sdk-0.8.0/src/mqtt_transport.rs /home/vgu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/azure_iot_sdk-0.8.0/src/token.rs /home/vgu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/azure_iot_sdk-0.8.0/src/transport.rs /home/vgu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/azure_iot_sdk-0.8.0/src/provision.rs
+
+/home/vgu/IoTSimulator/target/debug/deps/libazure_iot_sdk-8fa760cea58a8eb7.rmeta: /home/vgu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/azure_iot_sdk-0.8.0/src/lib.rs /home/vgu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/azure_iot_sdk-0.8.0/src/client.rs /home/vgu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/azure_iot_sdk-0.8.0/src/message.rs /home/vgu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/azure_iot_sdk-0.8.0/src/mqtt_transport.rs /home/vgu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/azure_iot_sdk-0.8.0/src/token.rs /home/vgu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/azure_iot_sdk-0.8.0/src/transport.rs /home/vgu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/azure_iot_sdk-0.8.0/src/provision.rs
+
+/home/vgu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/azure_iot_sdk-0.8.0/src/lib.rs:
+/home/vgu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/azure_iot_sdk-0.8.0/src/client.rs:
+/home/vgu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/azure_iot_sdk-0.8.0/src/message.rs:
+/home/vgu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/azure_iot_sdk-0.8.0/src/mqtt_transport.rs:
+/home/vgu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/azure_iot_sdk-0.8.0/src/token.rs:
+/home/vgu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/azure_iot_sdk-0.8.0/src/transport.rs:
+/home/vgu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/azure_iot_sdk-0.8.0/src/provision.rs:
+
+# env-dep:CARGO_PKG_VERSION=0.8.0
